@@ -1,85 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anya - Privacy Policy</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ffe6f2;
-            color: #5a1a47;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
-        }
-        h1, h2 {
-            color: #ff1493;
-        }
-        h1 {
-            text-align: center;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anya Bot - Privacy Policy</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #2b2d31;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .discord-card {
+      background-color: #313338;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .discord-purple {
+      color: #5865F2;
+    }
+  </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><em>Last Updated: March 2025</em></p>
-        
-        <div class="section">
-            <h2>1. Data We Collect</h2>
-            <p><strong>Server & User Data:</strong> We may collect and store necessary data, including Server IDs, Channel IDs, and User IDs, to operate Anya’s features.</p>
-            <p><strong>No Personal Information:</strong> Anya does not collect personally identifiable information (PII) such as email addresses, passwords, or financial data.</p>
-            <p><strong>Logging & Analytics:</strong> We may collect anonymized usage data to improve Anya’s performance.</p>
-        </div>
-        
-        <div class="section">
-            <h2>2. How We Use Your Data</h2>
-            <p>Data is used to provide music playback, manage preferences, enhance performance, and prevent abuse.</p>
-        </div>
-        
-        <div class="section">
-            <h2>3. Data Storage & Security</h2>
-            <p>We retain data only as long as necessary and implement security measures to protect it.</p>
-            <p>Anya may interact with third-party APIs, which have their own privacy policies.</p>
-        </div>
-        
-        <div class="section">
-            <h2>4. User Control & Data Removal</h2>
-            <p>Users can remove Anya from their server at any time. Data deletion requests can be made via our support team.</p>
-        </div>
-        
-        <div class="section">
-            <h2>5. Policy Updates</h2>
-            <p>We may update this Privacy Policy at any time. Continued use of Anya implies acceptance of changes.</p>
-        </div>
-        
-        <div class="section">
-            <h2>6. Contact & Support</h2>
-            <p>If you have concerns regarding your data, reach out via our official Discord support server.</p>
-        </div>
-        
-        <div class="footer">
-            <p>By using Anya, you acknowledge that you have read and agreed to this Privacy Policy.</p>
-        </div>
-    </div>
+<body class="min-h-screen flex items-center justify-center p-6">
+
+  <div class="max-w-3xl w-full discord-card">
+    <h1 class="text-3xl font-bold discord-purple mb-4">Anya Bot Privacy Policy</h1>
+
+    <p class="mb-4">This privacy policy explains how Anya Bot ("the bot") collects and uses data within Discord servers.</p>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2 text-white">1. What Data We Collect</h2>
+    <ul class="list-disc list-inside text-gray-300">
+      <li>Server IDs, Channel IDs, and User IDs for internal functionality.</li>
+      <li>Message content (only when the <strong>Message Content Intent</strong> is enabled) to enable DJ functionality and prefixless commands in specific channels.</li>
+      <li>Bot usage statistics like command usage and error logs.</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2 text-white">2. Why We Collect It</h2>
+    <p class="text-gray-300 mb-4">We use this data to:</p>
+    <ul class="list-disc list-inside text-gray-300">
+      <li>Allow DJ Role to execute commands without a prefix in designated channels.</li>
+      <li>Track command usage to improve bot performance.</li>
+      <li>Prevent abuse through features like global blacklisting.</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2 text-white">3. Data Sharing</h2>
+    <p class="text-gray-300 mb-4">We do <strong>not</strong> sell, share, or trade your data with any third party. All data is kept secure and used solely for bot functionality.</p>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2 text-white">4. Opting Out</h2>
+    <p class="text-gray-300 mb-4">If you do not want the bot to track message content, you can disable DJ Mode in your server or remove the bot.</p>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2 text-white">5. Contact</h2>
+    <p class="text-gray-300 mb-4">For any concerns or inquiries, contact the developer via Discord or email: <strong>yourmail@example.com</strong></p>
+
+    <footer class="text-sm text-gray-500 mt-10">
+      © 2025 Anya Bot. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
